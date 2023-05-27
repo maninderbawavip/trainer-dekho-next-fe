@@ -70,9 +70,9 @@ export const TrainingJobsList = () => {
   return (
     <div className="mx-auto max-w-7xl py-10">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-1">
-        {TRAINING_JOBS.map((training) => (
+        {TRAINING_JOBS.map((training, index) => (
           <div
-            key={training.id}
+            key={training.name + "index"}
             className="relative flex items-center space-x-3 rounded-lg border border-gray-200 bg-white px-6 py-5 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-300 hover:shadow"
           >
             <div className="hidden flex-shrink-0 lg:flex">
@@ -104,8 +104,10 @@ export const TrainingJobsList = () => {
                 </p>
                 <div className="flex items-center">
                   <div className="flex min-w-0 flex-1 flex-wrap space-x-2">
-                    {training.skills.split(',').map((skill) => (
-                      <span className="inline-flex items-center rounded-xl bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600">
+                    {training.skills.split(',').map((skill, index) => (
+                      <span 
+                      key={index+"skill"}
+                      className="inline-flex items-center rounded-xl bg-gray-100 px-2 py-1 text-sm font-medium text-gray-600">
                         {skill}
                       </span>
                     ))}
