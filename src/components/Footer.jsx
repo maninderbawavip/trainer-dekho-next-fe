@@ -10,15 +10,6 @@ export function Footer() {
       <Container>
         <div className="py-6 flex items-center justify-between">
           <Logo className="mx-auto h-10 w-auto" />
-          <nav className="text-sm" aria-label="quick links">
-            <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#features">Privacy Policy</NavLink>
-              <NavLink href="#testimonials">Terms & Conditions</NavLink>
-              <NavLink href="#pricing">About Us</NavLink>
-            </div>
-          </nav>
-        </div>
-        <div className="flex flex-col items-center border-t border-slate-400/10 py-6 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
             <Link
               href="https://twitter.com"
@@ -45,6 +36,16 @@ export function Footer() {
               </svg>
             </Link>
           </div>
+        </div>
+        <div className="flex flex-col items-center border-t border-slate-400/10 py-6 sm:flex-row-reverse sm:justify-between">
+          
+          <nav className="text-sm" aria-label="quick links">
+            <div className="-my-1 flex justify-center gap-x-6">
+              <NavLink href="/privacy-policy">Privacy Policy</NavLink>
+              <NavLink href="/terms-conditions">Terms & Conditions</NavLink>
+              <NavLink href="/about-us">About Us</NavLink>
+            </div>
+          </nav>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} Trainer Dekho Pvt Ltd. All rights reserved.
           </p>
