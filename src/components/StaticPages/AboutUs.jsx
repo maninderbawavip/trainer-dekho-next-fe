@@ -25,7 +25,7 @@ export const AboutUsContent = () => {
         </li>
         <li className="mb-2">
           Customized Solutions: We understand that each organization has unique
-          learning needs. That's why we offer tailored solutions that match the
+          learning needs. That is why we offer tailored solutions that match the
           specific requirements of our learning partners.
         </li>
         <li className="mb-2">
@@ -49,7 +49,7 @@ export const AboutUsContent = () => {
       <p className="mb-6">
         Our mission at TrainerDekho is to bridge the gap between learning
         partners and trainers, empowering organizations to enhance their
-        workforce's skills and capabilities. We strive to facilitate a seamless
+        workforce skills and capabilities. We strive to facilitate a seamless
         and efficient process for finding the right trainers and speakers,
         enabling enterprises to thrive in a rapidly evolving business landscape.
       </p>

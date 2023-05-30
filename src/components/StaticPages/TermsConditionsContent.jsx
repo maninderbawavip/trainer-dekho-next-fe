@@ -2,9 +2,9 @@ export const TermsConditionsContent = () => {
   return (
     <div classNameName="">
       <p className="mb-6">
-        Please read these Terms and Conditions ("Terms", "Terms and Conditions")
-        carefully before using the TrainerDekho website (the "Service") operated
-        by TrainerDekho ("us", "we", or "our").
+        Please read these Terms and Conditions (&quot;Terms&quot;, &quot;Terms and Conditions&quot;)
+        carefully before using the TrainerDekho website (the &quot;Service&quot;) operated
+        by TrainerDekho (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;).
       </p>
 
       <h2 className="mb-2 text-xl font-bold">1. Acceptance of Terms</h2>
@@ -58,7 +58,7 @@ export const TermsConditionsContent = () => {
         damages for loss of profits, data, or other intangible losses.
       </p>
       <p className="mb-6">
-        5.2 The Service is provided on an "as is" and "as available" basis.
+        5.2 The Service is provided on an &quot;as is&quot; and &quot;as available&quot; basis.
         TrainerDekho makes no warranties, express or implied, regarding the
         Service, including but not limited to warranties of merchantability,
         fitness for a particular purpose, or non-infringement.
