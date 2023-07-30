@@ -33,7 +33,7 @@ export const FeaturesSection = () => {
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
           TrainerDekho is your go-to platform for connecting with top-notch trainers and speakers. 
-          From technical upskilling to essential soft skills, we have trainers empanelled with us to elevate your team's capabilities.
+          From technical upskilling to essential soft skills, we have trainers empanelled with us to elevate your team&apos;s capabilities.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
