@@ -1,0 +1,10 @@
+const CONFIG = {
+  API_BASE_URL: process.env.NEXT_PUBLIC_API_BASE_URL,
+  OLD_API_BASE_URL: process.env.NEXT_PUBLIC_OLD_API_BASE_URL,
+  CDN_SERVER_URL: process.env.NEXT_PUBLIC_CDN_SERVER_URL,
+  APP_BASE_URL: process.env.NEXT_PUBLIC_APP_BASE_URL
+};
+
+export const CURRENCY_SYMBOL = "₹";
+
+export default CONFIG; 

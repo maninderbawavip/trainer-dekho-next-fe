@@ -11,6 +11,7 @@ import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import { FeaturesSection } from '@/components/FeaturesSection'
 import { FeaturesWithPhoto } from '@/components/FeaturesWithPhoto'
+import { FeaturesSectionDark } from '@/components/FeaturesSectionDark'
 
 export default function Home() {
   return (
@@ -25,15 +26,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <FeaturesWithPhoto />
+        <FeaturesSectionDark />
         <FeaturesSection />
-        
-        <PrimaryFeatures />
-        <SecondaryFeatures />
         <CallToAction />
-        <Testimonials />
-        <Pricing />
-        <Faqs />
+        {/* <Testimonials /> */}
       </main>
       <Footer />
     </>

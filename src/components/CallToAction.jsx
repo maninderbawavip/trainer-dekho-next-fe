@@ -8,28 +8,33 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative overflow-hidden bg-blue-600 py-32"
+      className="relative overflow-hidden bg-gray-900 py-32"
     >
-      <Image
+      {/* <Image
         className="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
         src={backgroundImage}
         alt=""
         width={2347}
         height={1244}
         unoptimized
-      />
+      /> */}
       <Container className="relative">
-        <div className="mx-auto max-w-lg text-center">
+        <div className="mx-auto max-w-5xl text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Get started today
+           Empower Your Training Career and Enterprise Growth
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            It’s time to take control of your books. Buy our software so you can
-            feel like you’re doing something productive.
+          Unleash Your Full Potential as a Skilled Trainer or Elevate Your Enterprise to New Heights with Tailored Training Solutions from our Network of Expert Educators and Speakers
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Get 6 months free
-          </Button>
+          <div className='space-x-4'>
+            
+            <Button href="/register" color="white" className="mt-10">
+            I am a Trainer
+            </Button>
+            <Button href="/register" variant='solid' color='orange' className="mt-10">
+              I am looking for Trainers
+            </Button>
+          </div>
         </div>
       </Container>
     </section>

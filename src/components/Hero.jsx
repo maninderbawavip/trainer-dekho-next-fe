@@ -2,12 +2,12 @@ import Image from 'next/future/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import logoGL from '@/images/logos/globallogic.jpeg'
+import logoIIHT from '@/images/logos/iiht.png'
+import logoKnowledgeHut from '@/images/logos/knowledgehut.png'
+import logoMercer from '@/images/logos/mercer.png'
+import logoPluralSight from '@/images/logos/pluralsight.png'
+import logoStackRoute from '@/images/logos/stackroute.png'
 
 export function Hero() {
   return (
@@ -49,13 +49,13 @@ export function Hero() {
             className="ml-2 whitespace-nowrap font-semibold text-blue-600 hover:text-blue-500"
           >
             <span className="absolute inset-0" aria-hidden="true" />
-            Partner with Us! <span aria-hidden="true">&rarr;</span>
+            Hire from Us! <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
       </div>
       <div className="mt-20 lg:mt-34">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Top Learning Partners and Enterprises source Mentors from us
         </p>
         <ul
           role="list"
@@ -63,14 +63,14 @@ export function Hero() {
         >
           {[
             [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
+              { name: 'Global Logic', logo: logoGL },
+              { name: 'Mercer', logo: logoMercer },
+              { name: 'Stack Route', logo: logoStackRoute },
             ],
             [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              { name: 'IIHT', logo: logoIIHT },
+              { name: 'PluralSight', logo: logoPluralSight },
+              { name: 'Knowledge Hut', logo: logoKnowledgeHut },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
@@ -80,7 +80,7 @@ export function Hero() {
               >
                 {group.map((company) => (
                   <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
+                    <Image src={company.logo} alt={company.name} height={200} />
                   </li>
                 ))}
               </ul>

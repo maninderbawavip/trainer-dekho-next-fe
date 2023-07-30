@@ -67,7 +67,7 @@ export const AboutUsContent = () => {
         We would love to hear from you! If you have any questions or inquiries,
         please feel free to reach out to our team at {' '}
         <a
-          classNameName="font-bold text-indigo-600"
+          className="font-bold text-indigo-600"
           href="mailto:info@trainerdekho.com"
         >
           info@trainerdekho.com{' '}
